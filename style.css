@@ -1,0 +1,130 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.container { 
+    width: 1140px; 
+    margin: 0 auto; 
+}
+
+.paragraf{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.zagh1{
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.zagh2cont{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.zagh3{
+    font-size: 36px;
+    text-align: center;
+}
+
+.zagh4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input_elem{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.button_elem{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.top{
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_topic{
+    width: 510px;
+}
+
+.header_topic > p{ /*Правильно ли понял задачу?*/
+    width: 425px;
+}
+.content_sheet{
+
+}
+
+.content_interior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_container{
+    width: 359px;
+}
+
+.middle_block{
+
+}
+
+.footer_sheet{
+
+}
+
+.footer_top{
+
+}
+
+.footer_top_interior{
+    width: 495px;
+}
+
+.footer_top_interior > h3{
+    width: 340px;
+}
+
+.footer_bottom{
+
+}
+
+.footer_bottom > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+}
+
+.footer_bottom_interior{
+
+}
+
+.contacts_data{
+    display: flex;
+}
+
